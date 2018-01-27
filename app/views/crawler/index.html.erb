@@ -1,0 +1,6 @@
+<h1>Crawler#index</h1>
+<p>Find me in app/views/crawler/index.html.erb</p>
+
+<% @new_currency.each_with_index do |currency,index| %>
+<p><%=index%>: <%= index %><%=@new_currency_name[index] %> <%=currency%></p>
+<% end %>
